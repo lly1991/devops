@@ -39,7 +39,7 @@
 
 	<build>
 		<!--最终生成的名字-->
-		<finalName>Devops</finalName>
+		<finalName>devops</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
