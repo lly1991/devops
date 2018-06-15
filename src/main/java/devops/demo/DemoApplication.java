@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 @SpringBootApplication
 @Controller
-@RequestMapping
+@RequestMapping("/css")
 public class DemoApplication {
 
 	public static void main(String[] args) {
