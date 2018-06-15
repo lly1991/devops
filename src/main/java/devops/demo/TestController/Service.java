@@ -1,17 +1,18 @@
 package devops.demo.TestController;
 
-/**
- * @author lly
- * @Description TODO
- * @date 2018/6/15下午2:41
- * @since JDK1.8
- */
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
+
+
+@Controller
+@RequestMapping("/css")
 public class Service
 {
-    public static void main(String[] args)
-    {
-        System.out.println("test");
+    @RequestMapping("/index")
+    @ResponseBody
+    public String index(){
 
-
+        return "hello";
     }
 }
